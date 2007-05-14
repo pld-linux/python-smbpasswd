@@ -1,4 +1,3 @@
-# $Revision: 1.2 $
 #
 %define		package		py-smbpasswd
 #
@@ -18,12 +17,12 @@ BuildRequires:	rpm-pythonprov
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Python SMB Password Hash Generator module that can generate both LANMAN and
-NT password hashes, suitable for use with Samba.
+Python SMB Password Hash Generator module that can generate both
+LANMAN and NT password hashes, suitable for use with Samba.
 
 %description -l pl.UTF-8
-Moduł języka Python kodujący hasła funkcją zgodną z hasłami LANMAN oraz NT
-do wykorzystania w sieciach SMB.
+Moduł języka Python kodujący hasła funkcją zgodną z hasłami LANMAN
+oraz NT do wykorzystania w sieciach SMB.
 
 %prep
 %setup -q -n %{package}-%{version}
