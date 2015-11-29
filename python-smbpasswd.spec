@@ -11,6 +11,7 @@ Group:		Libraries/Python
 Source0:	http://barryp.org/static/software/download/%{packagename}/%{version}/%{packagename}-%{version}.tar.gz
 # Source0-md5:	0eab2c29588e32e77ce6e5d2faea7874
 URL:		http://barryp.org/software/py-smbpasswd/
+BuildRequires:	rpmbuild(macros) >= 1.710
 BuildRequires:	python-devel
 BuildRequires:	rpm-pythonprov
 %pyrequires_eq	python-modules
