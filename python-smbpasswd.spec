@@ -5,7 +5,7 @@ Summary:	Python SMB Password Hash Generator module
 Summary(pl.UTF-8):	Moduł języka Python kodujący hasła funkcją zgodną z SMB
 Name:		python-smbpasswd
 Version:	1.0.1
-Release:	2
+Release:	3
 License:	GPL
 Group:		Libraries/Python
 Source0:	http://barryp.org/static/software/download/%{packagename}/%{version}/%{packagename}-%{version}.tar.gz
@@ -46,3 +46,4 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc README.txt CHANGES.txt
 %attr(755,root,root) %{py_sitedir}/*.so
+%{py_sitedir}/smbpasswd-*.egg-info
